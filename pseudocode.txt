@@ -1,0 +1,14 @@
+Start
+Press button location
+Press button "food"
+Press button "choose the restaurant"
+Press button "menu order"
+READ AND WRITE "food order" with string
+IF WHILE "Food order" Food not available "menu order"
+          PRINT "Menu not available"
+          Do "READ AND WRITE "Food order" with string"
+ELSE
+    READ AND WRITE "Amount of Food" with number
+END IF
+Press button "checkout"
+Finish
