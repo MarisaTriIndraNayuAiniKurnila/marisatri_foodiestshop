@@ -9,6 +9,9 @@ IF WHILE "Food order" Food not available "menu order"
           Do "READ AND WRITE "Food order" with string"
 ELSE
     READ AND WRITE "Amount of Food" with number
+IF WHILE "Cash" Cashless
+	  PRINT "Cashless"
+	  Do "READ AND WRITE "Nominal" with number
 END IF
 Press button "checkout"
 Finish
